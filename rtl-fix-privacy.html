@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - RTL Fix</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+            border-bottom: 3px solid #ff6b00;
+            padding-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .header .subtitle {
+            font-size: 1.1rem;
+            color: #b0b0b0;
+            margin-bottom: 20px;
+        }
+
+        .language-toggle {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .language-toggle button {
+            padding: 8px 20px;
+            border: 2px solid #ff6b00;
+            background: transparent;
+            color: #ff6b00;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+        }
+
+        .language-toggle button.active {
+            background: #ff6b00;
+            color: #1a1a1a;
+        }
+
+        .language-toggle button:hover {
+            background: #ff6b00;
+            color: #1a1a1a;
+        }
+
+        .content {
+            background-color: #242424;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+        }
+
+        .content.hidden {
+            display: none;
+        }
+
+        h2 {
+            color: #ff6b00;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+            border-right: 4px solid #ff6b00;
+            padding-right: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #d0d0d0;
+        }
+
+        ul {
+            margin-right: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #d0d0d0;
+        }
+
+        strong {
+            color: #ff6b00;
+        }
+
+        .highlight-box {
+            background-color: #1a1a1a;
+            border-right: 4px solid #ff6b00;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #808080;
+            border-top: 1px solid #333;
+            margin-top: 60px;
+        }
+
+        footer a {
+            color: #ff6b00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .content {
+                padding: 25px;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔒 RTL Fix Privacy Policy</h1>
+            <p class="subtitle">سياسة الخصوصية لإضافة RTL Fix</p>
+        </div>
+
+        <div class="language-toggle">
+            <button class="active" onclick="toggleLanguage('en')">English</button>
+            <button onclick="toggleLanguage('ar')">العربية</button>
+        </div>
+
+        <!-- English Content -->
+        <div id="content-en" class="content">
+            <h2>Privacy Policy for RTL Fix</h2>
+            
+            <p>The <strong>"RTL Fix"</strong> Chrome Extension does not collect, store, share, or transmit any personal information or user data. All text processing and DOM manipulation to fix Right-to-Left (RTL) alignment occurs <strong>strictly locally on your device</strong>.</p>
+
+            <div class="highlight-box">
+                <strong>✓ Data Processing:</strong> All processing happens locally in your browser only. No data is sent to external servers.
+            </div>
+
+            <h2>What We Don't Do</h2>
+            <ul>
+                <li>We <strong>do not</strong> collect any personal information</li>
+                <li>We <strong>do not</strong> store your browsing data</li>
+                <li>We <strong>do not</strong> share data with third parties</li>
+                <li>We <strong>do not</strong> transmit any data to external servers</li>
+                <li>We <strong>do not</strong> use analytics or tracking</li>
+                <li>We <strong>do not</strong> use cookies for tracking purposes</li>
+            </ul>
+
+            <h2>Local Storage</h2>
+            <p>The extension <strong>only uses Chrome's local storage</strong> to save your preference (ON/OFF toggle). This preference is stored <strong>only on your device</strong> and is never transmitted anywhere.</p>
+
+            <h2>How the Extension Works</h2>
+            <ol style="margin-right: 20px; margin-bottom: 15px;">
+                <li>When enabled, the extension reads the DOM of the current webpage</li>
+                <li>It applies RTL text direction fixes locally in your browser</li>
+                <li>All processing happens instantly on your device</li>
+                <li>No data leaves your computer</li>
+            </ol>
+
+            <div class="highlight-box">
+                <strong>💡 Transparency:</strong> This extension is open-source. You can verify the code yourself on GitHub to confirm it respects your privacy.
+            </div>
+
+            <h2>Contact</h2>
+            <p>If you have any questions about this privacy policy, please contact us at:</p>
+            <p><strong><a href="mailto:ammar.h.salah@gmail.com">ammar.h.salah@gmail.com</a></strong></p>
+
+            <h2>Last Updated</h2>
+            <p>This privacy policy was last updated on: <strong>April 2026</strong></p>
+        </div>
+
+        <!-- Arabic Content -->
+        <div id="content-ar" class="content hidden" dir="rtl">
+            <h2>سياسة الخصوصية لإضافة RTL Fix</h2>
+            
+            <p>إضافة <strong>"RTL Fix"</strong> في متصفح Chrome لا تجمع أو تخزن أو تشارك أو تنقل أي بيانات شخصية أو معلومات المستخدم. جميع معالجة النصوص والعمليات على DOM لإصلاح محاذاة من اليمين إلى اليسار (RTL) تتم <strong>بالكامل محليًا على جهازك فقط</strong>.</p>
+
+            <div class="highlight-box">
+                <strong>✓ معالجة البيانات:</strong> تتم جميع العمليات محليًا في متصفحك فقط. لا يتم إرسال أي بيانات إلى خوادم خارجية.
+            </div>
+
+            <h2>ما لا نفعله</h2>
+            <ul>
+                <li><strong>لا نجمع</strong> أي معلومات شخصية</li>
+                <li><strong>لا نخزن</strong> بيانات التصفح الخاصة بك</li>
+                <li><strong>لا نشارك</strong> البيانات مع أطراف ثالثة</li>
+                <li><strong>لا ننقل</strong> أي بيانات إلى خوادم خارجية</li>
+                <li><strong>لا نستخدم</strong> التحليلات أو المتابعة</li>
+                <li><strong>لا نستخدم</strong> الكوكيز لأغراض المتابعة</li>
+            </ul>
+
+            <h2>التخزين المحلي</h2>
+            <p>الإضافة <strong>تستخدم فقط تخزين Chrome المحلي</strong> لحفظ تفضيلك (تشغيل/إيقاف). يتم حفظ هذا التفضيل <strong>على جهازك فقط</strong> ولا يتم نقله إلى أي مكان.</p>
+
+            <h2>كيفية عمل الإضافة</h2>
+            <ol style="margin-right: 20px; margin-bottom: 15px;">
+                <li>عند التفعيل، تقرأ الإضافة DOM الصفحة الحالية</li>
+                <li>تطبق إصلاحات اتجاه النص محليًا في متصفحك</li>
+                <li>جميع المعالجات تحدث فوريًا على جهازك</li>
+                <li>لا تغادر أي بيانات جهازك</li>
+            </ol>
+
+            <div class="highlight-box">
+                <strong>💡 الشفافية:</strong> هذه الإضافة مفتوحة المصدر. يمكنك التحقق من الكود بنفسك على GitHub للتأكد من احترامها لخصوصيتك.
+            </div>
+
+            <h2>التواصل</h2>
+            <p>إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى التواصل معنا على:</p>
+            <p><strong><a href="mailto:ammar.h.salah@gmail.com">ammar.h.salah@gmail.com</a></strong></p>
+
+            <h2>آخر تحديث</h2>
+            <p>تم آخر تحديث لسياسة الخصوصية هذه في: <strong>أبريل 2026</strong></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 RTL Fix. All rights reserved. | سياسة الخصوصية - RTL Fix</p>
+        <p><a href="#">GitHub Repository</a> | <a href="#">Report Issue</a></p>
+    </footer>
+
+    <script>
+        function toggleLanguage(lang) {
+            const enContent = document.getElementById('content-en');
+            const arContent = document.getElementById('content-ar');
+            const buttons = document.querySelectorAll('.language-toggle button');
+
+            if (lang === 'en') {
+                enContent.classList.remove('hidden');
+                arContent.classList.add('hidden');
+                document.documentElement.dir = 'ltr';
+                document.documentElement.lang = 'en';
+                buttons[0].classList.add('active');
+                buttons[1].classList.remove('active');
+            } else {
+                enContent.classList.add('hidden');
+                arContent.classList.remove('hidden');
+                document.documentElement.dir = 'rtl';
+                document.documentElement.lang = 'ar';
+                buttons[0].classList.remove('active');
+                buttons[1].classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
